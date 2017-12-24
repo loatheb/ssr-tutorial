@@ -9,6 +9,18 @@
   "author": "zhao.zhang <loatheb.zhao@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "lerna": "^2.5.1"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "lerna": "^2.5.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
   }
 }
