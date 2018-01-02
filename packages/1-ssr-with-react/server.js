@@ -11,4 +11,8 @@ app.use('/:text', function(req, res) {
   res.send(content)
 })
 
+app.use(function(req, res, next) {
+  res.redirect('/helloworld')
+})
+
 app.listen(3000)
