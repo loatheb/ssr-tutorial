@@ -26,4 +26,8 @@ app.use('/app', function(req, res) {
   })
 })
 
+app.use(function(req, res) {
+  res.render('index')
+})
+
 app.listen(3000)
